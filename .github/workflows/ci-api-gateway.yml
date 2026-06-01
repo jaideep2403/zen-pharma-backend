@@ -17,6 +17,7 @@ on:
     paths:
       - 'api-gateway/**'
       - '.github/workflows/ci-api-gateway.yml'
+  workflow_dispatch:
 
 permissions:
   id-token: write
