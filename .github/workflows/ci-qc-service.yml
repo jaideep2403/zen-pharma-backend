@@ -6,6 +6,7 @@ on:
     paths:
       - 'qc-service/**'
       - '.github/workflows/ci-qc-service.yml'
+  workflow_dispatch:
 
 permissions:
   id-token: write
